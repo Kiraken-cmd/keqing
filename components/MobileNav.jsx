@@ -23,6 +23,10 @@ const links = [
     path: "/teams",
   },
   {
+    name: "build",
+    path: "/build",
+  },
+  {
     name: "gallery",
     path: "/gallery",
   },
