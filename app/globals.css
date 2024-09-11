@@ -5,6 +5,11 @@
 @layer base {
   body {
     @apply font-primary bg-primary text-white leading-loose;
+    cursor: url("../public/cursor.png"), auto;
+  }
+
+  Button {
+    cursor: url("../public/pointer.png"), auto;
   }
 
   .h1 {

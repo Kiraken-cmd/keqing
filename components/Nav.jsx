@@ -40,6 +40,7 @@ const Nav = () => {
           <Link
             href={link.path}
             key={index}
+            style={{ cursor: "url('/pointer.png'), auto" }}
             className={`${
               link.path === pathname && "text-accent border-b-2 border-accent"
             } capitalize font-medium hover:text-accent transition-all`}
